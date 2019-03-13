@@ -15,7 +15,7 @@ class Adapterreview extends RecyclerView.Adapter<Adapterreview.ViewHolder> {
 
     ArrayList<ModelReview> pojoArrayList;
     Context ct;
-
+//this is class method
     public Adapterreview(Main2Activity main2Activity, ArrayList<ModelReview> reviewsArrayList) {
 
         this.pojoArrayList=reviewsArrayList;
